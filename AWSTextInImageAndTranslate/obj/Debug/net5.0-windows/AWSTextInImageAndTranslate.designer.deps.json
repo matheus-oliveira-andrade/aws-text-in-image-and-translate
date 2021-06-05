@@ -1,0 +1,82 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "AWSSDK.Core/3.7.0.31": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.31"
+          }
+        }
+      },
+      "AWSSDK.Rekognition/3.7.1.6": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.0.31"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Rekognition.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.1.6"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.1": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.0.31"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.1.0"
+          }
+        }
+      },
+      "AWSSDK.Translate/3.7.0.29": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.0.31"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Translate.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.29"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AWSSDK.Core/3.7.0.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C2vzPag+Rzb1hBiMUwRW+HQzIrsPxxKBk7EMX0AUxkApg36DOGXI1Aha4xpC0w5sWqRuQAJ3YW0Ihk1nPlBzKA==",
+      "path": "awssdk.core/3.7.0.31",
+      "hashPath": "awssdk.core.3.7.0.31.nupkg.sha512"
+    },
+    "AWSSDK.Rekognition/3.7.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IowAR141+MoteFltYro5GpRlr4FSxMZApPQ4/jCKvK34KI/JFMsj4iN6tgnJTaiHX6CURbgt23WqDv9ipeVtog==",
+      "path": "awssdk.rekognition/3.7.1.6",
+      "hashPath": "awssdk.rekognition.3.7.1.6.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GhUxyqLDVNj0qubAmHuytZ5P68yT1PTnV5Phig6WziPgOTVrGJfgSx9cw6L5KSZxEGIZNXwuIaVCYA6N8v5kLQ==",
+      "path": "awssdk.s3/3.7.1",
+      "hashPath": "awssdk.s3.3.7.1.nupkg.sha512"
+    },
+    "AWSSDK.Translate/3.7.0.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iTIG5lsePy3ABQG6xXPkZffJUF9I1rueNKO83nK1dI8q8zqGWp4oD4vFFZ3xcrmo8mLfuLBbI+ngclgWE99DfQ==",
+      "path": "awssdk.translate/3.7.0.29",
+      "hashPath": "awssdk.translate.3.7.0.29.nupkg.sha512"
+    }
+  }
+}
